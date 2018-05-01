@@ -1,0 +1,26 @@
+[Unit]
+Description=RUPEE coin's distributed currency daemon
+After=network.target
+
+[Service]
+User=rupeecoin
+Group=rupeecoin
+
+Type=forking
+PIDFile=/var/lib/rupeecoind/rupeecoind.pid
+
+ExecStart=/usr/bin/rupeecoind -daemon -pid=/var/lib/rupeecoind/rupeecoind.pid \
+          -conf=/etc/rupeecoin/rupeecoin.conf -datadir=/var/lib/rupeecoind
+
+ExecStop=-/usr/bin/rupeecoin-cli -conf=/etc/rupeecoin/rupeecoin.conf \
+         -datadir=/var/lib/rupeecoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

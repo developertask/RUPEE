@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/rupeecoin_bg.qm</file>
+        <file alias="ca">locale/rupeecoin_ca.qm</file>
+        <file alias="cs">locale/rupeecoin_cs.qm</file>
+        <file alias="da">locale/rupeecoin_da.qm</file>
+        <file alias="de">locale/rupeecoin_de.qm</file>
+        <file alias="en">locale/rupeecoin_en.qm</file>
+        <file alias="en_US">locale/rupeecoin_en_US.qm</file>
+        <file alias="es">locale/rupeecoin_es.qm</file>
+        <file alias="fi">locale/rupeecoin_fi.qm</file>
+        <file alias="fr_FR">locale/rupeecoin_fr_FR.qm</file>
+        <file alias="it">locale/rupeecoin_it.qm</file>
+        <file alias="ja">locale/rupeecoin_ja.qm</file>
+        <file alias="ko_KR">locale/rupeecoin_ko_KR.qm</file>
+        <file alias="nl">locale/rupeecoin_nl.qm</file>
+        <file alias="pl">locale/rupeecoin_pl.qm</file>
+        <file alias="pt">locale/rupeecoin_pt.qm</file>
+        <file alias="pt_BR">locale/rupeecoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/rupeecoin_ro_RO.qm</file>
+        <file alias="ru">locale/rupeecoin_ru.qm</file>
+        <file alias="sk">locale/rupeecoin_sk.qm</file>
+        <file alias="sv">locale/rupeecoin_sv.qm</file>
+        <file alias="tr">locale/rupeecoin_tr.qm</file>
+        <file alias="uk">locale/rupeecoin_uk.qm</file>
+        <file alias="zh_CN">locale/rupeecoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/rupeecoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=RUPcoin
+Comment=RUPcoin P2P Cryptocurrency
+Exec=rupeecoin-qt %u
+Terminal=false
+Type=Application
+Icon=rupeecoin128
+MimeType=x-scheme-handler/rupeecoin;
+Categories=Office;Finance;
+Name[en_US]=rupeecoin-qt.desktop
